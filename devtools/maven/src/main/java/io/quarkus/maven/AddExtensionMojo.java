@@ -46,6 +46,7 @@ public class AddExtensionMojo extends BuildFileMojoBase {
         }
     }
 
+    // do it
     @Override
     public void doExecute(BuildFile buildFile) throws MojoExecutionException {
 
