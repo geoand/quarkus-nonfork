@@ -6,7 +6,9 @@ import org.jboss.jandex.DotName;
 
 import io.quarkus.builder.item.SimpleBuildItem;
 
+/**
 
+**/
 public final class SpringBeanNameToDotNameBuildItem extends SimpleBuildItem {
 
     private final Map<String, DotName> map;
